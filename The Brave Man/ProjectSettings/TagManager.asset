@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - HP
+  - DartSpawnPoint
+  - Enemy
+  - Ground
+  - BulletSpawnPoint
+  - Enemy2
+  - Human
+  - HumanCircle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PostProcessing
+  - Water
+  - UI
+  - Enemies
+  - Player
+  - Ground
+  - HP
+  - Finish
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 3278584235
+    locked: 0
+  - name: Player
+    uniqueID: 1407177357
+    locked: 0
+  - name: Light
+    uniqueID: 950276889
+    locked: 0
