@@ -12,7 +12,6 @@ public class FourthAchievmentIMG : MonoBehaviour
 
     void Start()
     {
-        // Загружаем состояние показа достижения из предыдущей сессии
         hasShownFourthAchievementIMG = PlayerPrefs.GetInt("hasShownFourthAchievementIMG", 0) == 1;
 
         // Відразу ховаємо зображення, якщо воно було показане раніше

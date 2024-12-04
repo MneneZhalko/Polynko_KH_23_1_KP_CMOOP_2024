@@ -27,14 +27,12 @@ public class SecondAchievmentIMG : MonoBehaviour
         }
     }
 
-    // Метод для показа Image на 3 секунды
     private void ShowAchievementCompletedImage()
     {
         achievementCompletedImage.gameObject.SetActive(true);
         Invoke("HideAchievementCompletedImage", achievmenttimer);
     }
 
-    // Метод для скрытия Image
     private void HideAchievementCompletedImage()
     {
         achievementCompletedImage.gameObject.SetActive(false);

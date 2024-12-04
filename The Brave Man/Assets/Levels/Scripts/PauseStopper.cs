@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PauseStopper : MonoBehaviour
 {
-    public GameObject pausePanel; // Ссылка на вашу панель в инспекторе Unity
+    public GameObject pausePanel;
 
     void Start()
     {
-        Time.timeScale = 1; // Возобновляем время
+        Time.timeScale = 1;
     }
 }

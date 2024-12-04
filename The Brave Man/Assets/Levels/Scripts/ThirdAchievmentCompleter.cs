@@ -18,7 +18,6 @@ public class ThirdAchievmentCompleter : MonoBehaviour
 
     void Update()
     {
-        // Загружаем состояние достижения из предыдущей сессии
         level1CompletedAchievement = PlayerPrefs.GetInt("level1CompletedAchievement", 0) == 1;
         hasShownThirdAchievement = PlayerPrefs.GetInt("hasShownThirdAchievement", 0) == 1;
 

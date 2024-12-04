@@ -12,7 +12,6 @@ public class ThirdAchievmentIMG : MonoBehaviour
 
     void Start()
     {
-        // Загружаем состояние показа достижения из предыдущей сессии
         hasShownThirdAchievementIMG = PlayerPrefs.GetInt("hasShownThirdAchievementIMG", 0) == 1;
 
         // Відразу ховаємо зображення, якщо воно було показане раніше
